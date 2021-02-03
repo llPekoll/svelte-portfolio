@@ -1,0 +1,166 @@
+// Developed by BootstrapDash (bootstrapdash.com).
+
+// Bootstrap function, vaiables and mixins
+@import "../vendors/bootstrap/scss/functions";
+@import "../vendors/bootstrap/scss/variables";
+@import "../vendors/bootstrap/scss/mixins";
+
+// Custom vaiables and fonts
+@import "./components/variables";
+@import "./components/font";
+
+// Bootstrap main file
+@import "../vendors/bootstrap/scss/bootstrap.scss";
+
+
+// Components
+@import "./components//loader";
+@import "./components/typography";
+@import "./components/buttons";
+@import "./components/header";
+@import "./components//landing";
+@import "./components/footer";
+@import "./components/utilities";
+
+
+p{
+    margin-top: 20px;
+}
+
+  .first-text{
+    font-size: 100px;
+    padding-bottom: 50px;
+  }
+  .second-text{
+    font-size: 30px;
+  }
+  .third-text{
+    font-size: 16px;
+    color: gray;
+  }
+//   .bg-1{
+//     color: black;
+//   }
+//   .bg-2{
+//     background-color: gray;
+//   }
+  .autopadding{
+    padding:auto;
+  }
+  .padding2{
+    padding: 10px;
+  }
+  
+  .smaller-image{
+    width: 30px;
+  }
+  .smaller-image2{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .smaller-image3{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+  
+  /* Container for skill bars */
+//   .container {
+//       width: 100%; /* Full width */
+//       background-color: #ddd; /* Grey background */
+//   }
+  
+  .skills {
+      text-align: right; /* Right-align text */
+      padding-right: auto;
+      
+      color: white; /* White text color */
+  }
+  
+  .html {width: 60%; background-color: #4CAF50;} /* Green */
+  .css {width: 50%; background-color: #2196F3;} /* Blue */
+  .js {width: 65%; background-color: #f44336;} /* Red */
+  .php {width: 60%; background-color: #808080;} /* Dark Grey */
+  
+  /* Skill Bar */
+  .p-element{
+    color:gray;
+    font-size:12px;
+  }
+  
+  .skillbar {
+      position:relative;
+      display:block;
+      margin-bottom:15px;
+      width:100%;
+      background:#eee;
+      height:35px;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+      -webkit-transition:0.4s linear;
+      -moz-transition:0.4s linear;
+      -ms-transition:0.4s linear;
+      -o-transition:0.4s linear;
+      transition:0.4s linear;
+      -webkit-transition-property:width, background-color;
+      -moz-transition-property:width, background-color;
+      -ms-transition-property:width, background-color;
+      -o-transition-property:width, background-color;
+      transition-property:width, background-color;
+  }
+  
+  .skillbar-title {
+      position:absolute;
+      top:0;
+      left:0;
+  width:110px;
+      
+      font-size:13px;
+      color:#ffffff;
+      background:#6adcfa;
+      -webkit-border-top-left-radius:3px;
+      -webkit-border-bottom-left-radius:4px;
+      -moz-border-radius-topleft:3px;
+      -moz-border-radius-bottomleft:3px;
+      border-top-left-radius:3px;
+      border-bottom-left-radius:3px;
+  }
+  
+  .skillbar-title span {
+      display:block;
+      background:rgba(0, 0, 0, 0.1);
+      padding:0 20px;
+      height:35px;
+      line-height:35px;
+      -webkit-border-top-left-radius:3px;
+      -webkit-border-bottom-left-radius:3px;
+      -moz-border-radius-topleft:3px;
+      -moz-border-radius-bottomleft:3px;
+      border-top-left-radius:3px;
+      border-bottom-left-radius:3px;
+  }
+  
+  .skillbar-bar {
+      height:35px;
+      width:0px;
+      background:#6adcfa;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+  }
+  
+  .skill-bar-percent {
+      position:absolute;
+      right:10px;
+      top:0;
+      font-size:11px;
+      height:35px;
+      line-height:35px;
+      color:#ffffff;
+      color:rgba(0, 0, 0, 0.4);
+  }
